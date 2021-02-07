@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* estilos.css  */
+/* la ventaja de usar una hoja externa vinculada a todas las paginas, los cambios se aplican a todos*/
+p{      
+    font-family: Tahoma, sans-serif;
+    color: #008006;
+    font-size: 18px;
+}
