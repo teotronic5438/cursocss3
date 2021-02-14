@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso CSS: Cascada</title>
     <style>
-        body{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #00F;
-        }
-        p{
+        strong{
             color: #F00;
         }
-        strong{
-            font-size: 36px;
-            color: #0F0;
+        .colorclase{
+            color: #00F;
+        }
+        #colorid{
+            color:#0F0;
         }
     </style>
 </head>
 <body>
     <h1>Curso de CSS Avanzado desde 0: Cascada</h1>
-    <p><a href="http://www.google.com.ar">Ir a google</a> es domingo, hace mucho <strong>calor</strong></p>
+    <p>Hoy es domingo, hace mucho <strong>calor</strong></p>   
+    <p>Hoy es domingo, hace mucho <strong id="colorid" class="colorclase" style="color: #FF0;">calor</strong></p>
+    <p>Hoy es domingo, hace mucho <strong class="colorclase">calor</strong></p>
+    <p>Hoy es domingo, hace mucho <strong id="colorid" class="colorclase">calor</strong></p>
+    <!-- Jerarquia del navegador para conflictos en estilos
+        etiquetas: 1 punto;
+        clases: 10 puntos;
+        id: 100 puntos;
+        inline: 1000 puntos; // solo en casos extremos //
+    -->
 </body>
 </html>
