@@ -1,0 +1,35 @@
+/*  texto.css   */
+body{
+    color: #003;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62%;
+}
+#principal h1{
+    color: #f30;
+    font-family: "Arial black", Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+#principal h2{
+    font: bold 3.5em Verdana, Times, serif;
+    border-bottom: 1px solid black;
+    margin-top: 25px;
+}
+#principal h3{
+    color: #f30;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#principal p{
+    font-size: 1.5em;
+    line-height: 150%;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+#principal p::first-line{
+    font-weight: bold;
+    color: #666;
+}
