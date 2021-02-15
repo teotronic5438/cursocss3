@@ -1,0 +1,27 @@
+/*  mihojapractica.css   */
+#principal{
+    float: left;
+    width: 580px;
+}
+#lateral{
+    margin-left: 600px;
+    padding: 15px;
+    background: #cdd5ff;
+}
+body{
+    color: #b1967C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px;
+    background: #E1CDFF url(../imagenes/fondo_cuerpo.png) repeat-x;
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 2.2em;
+    color: #600;
+    margin-bottom: 5px;
+}

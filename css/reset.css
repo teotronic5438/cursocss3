@@ -1,0 +1,15 @@
+/*  reset.css  */
+html, body, h1,h2,h3,h4,h5,h6, ol, ul, li, pre, code, address, form, fieldset, div{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+ol{
+    margin-left: 1.4em;
+    list-style: decimal;    /* numeros ordenados */
+}
+ul{
+    margin-left: 1.4em;
+    list-style: square; /* cuadrados en vez de circulos */
+}
