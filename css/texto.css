@@ -3,6 +3,15 @@ body{
     color: #003;;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62%;
+
+    background: #09F url(../imagenes/fondo_div.png) repeat-x;
+}
+#principal{
+    width: 740px;
+    margin: auto;
+    border: 4px solid #FFF;
+    padding: 0 10px;
+    background: url(..//imagenes/fondotext.jpg) no-repeat;
 }
 #principal h1{
     color: #f30;
@@ -32,4 +41,28 @@ body{
 #principal p::first-line{
     font-weight: bold;
     color: #666;
+}
+#principal ul{
+    margin: 50px 0 15px 50px;
+    width: 160px;
+    float: right;
+}
+#principal li{
+    color: #06E;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+#principal .autor{
+    font-size: 1.6em;
+    margin: 5px 0 25px 50px;
+}
+#principal .autor strong{
+    color: #F00;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+#principal h1 strong{
+    font-size: 150px;
+    color: white;
+    margin-right: -0.75em;
 }
